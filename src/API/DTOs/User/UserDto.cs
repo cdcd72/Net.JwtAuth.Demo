@@ -6,7 +6,7 @@ public class UserDto
 {
     public Guid Id { get; set; }
 
-    public string Email { get; set; }
+    public string Email { get; set; } = null!;
 
-    public RoleDto Role { get; set; }
+    public RoleDto Role { get; set; } = null!;
 }
